@@ -1,0 +1,30 @@
+1. document.getElementById("container");
+
+2. document.querySelector("#container");
+
+3. document.getElementsByClassName("second");
+
+4. document.querySelector("ol .third");
+
+5. const section = document.getElementById("container");
+	section.innerText = "Hello";
+
+6. const footer = document.querySelector(".footer");
+	footer.classList.add("main");
+
+7.  footer.classList.remove("main");
+
+8. const newli = document.createElement("li");
+
+9. newli.innerText = "four";
+
+10. const ul = document.querySelector("ul");
+	ul.append(newli);
+
+11. const inside = document.querySelectorAll("ol li");
+	for(let i of inside){
+	i.style.backgroundColor = "green";
+}
+
+12. const footer = document.querySelector(".footer");
+	footer.remove();
